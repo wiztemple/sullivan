@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background-color: #fff;
+    /* display: flex; */
+    padding: 10px;
+    color: #222;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+	/* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); */
+    /* box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3; */
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+.navbar > .shelter {
+    display: flex;
+}
+.navbar__nav{
+    padding-right: 8px;
+}
+.nav__underline{
+    padding-top: 7px;
+}
+.nav__items{
+    display: flex;
+}
+.nav__items-right{
+margin-left: auto;
+}
+.navbar__nav-toggle{
+    display: none;
+}
+.nav__logo{
+    font-family: 'Lobster Two', cursive;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: blue;
+}
+.nav__link{
+    padding: 0.2rem 1rem;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    color: dodgerblue;
+    text-decoration: none;
+
+}
+.nav__link::after{
+    position: absolute;
+    content: '';
+    bottom: -1rem;
+    width:100%;
+    border-bottom: 3px solid transparent;
+}
+.nav__link:hover::after{
+    border-bottom-color:dodgerblue;
+    transition: border-bottom-color ease-in-out 0.3s;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030
+}
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030
+}
+@media only screen and (max-width: 768px) {
+    .nav__items, .navbar > .shelter {
+        flex-direction: column;
+    }
+    .nav__items{
+        display: none;
+    }
+    .navbar__toggleShow{
+        display: flex;
+    }
+    .nav__items-right{
+        margin-left:0;
+    }
+    .navbar__nav-toggle{
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+    }
+}

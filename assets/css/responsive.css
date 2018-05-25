@@ -1,0 +1,46 @@
+@media (max-width: 576px) {
+  .shelter {
+    max-width: 540px;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:100%;
+  }
+  .column{
+    width:100%;
+    margin-bottom: 10px;
+  }
+  .card{
+    width:100%;
+  }
+  .banner{
+    height: 250px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .shelter {
+    max-width: 720px;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+  }
+  .column{
+    width:100%;
+    margin-bottom: 10px;
+  }
+  .banner{
+    height: 250px;
+  }
+ 
+}
+@media (min-width: 992px) {
+  .shelter {
+    max-width: 960px;
+  }
+}

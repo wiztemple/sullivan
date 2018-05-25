@@ -1,0 +1,107 @@
+
+.px-1{
+    padding: 0 1rem;
+}
+.px-2{
+    padding: 0 2rem;
+}
+.px-3{
+    padding: 0 3rem;
+}
+.px-4{
+    padding: 0 4rem;
+}
+.px-5{
+    padding: 0 5rem;
+}
+.py-0{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.py-1{
+    padding: 1rem 0rem;
+}
+.py-2{
+    padding: 2rem 0rem;
+}
+.py-3{
+    padding: 3rem 0rem;
+}
+.py-4{
+    padding: 4rem 0rem;
+}
+.py-5{
+    padding: 5rem 0rem;
+}
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 2rem;
+}
+.p-3{
+    padding: 3rem;
+}
+.p-4{
+    padding: 4rem;
+}
+.p-5{
+    padding: 5rem;
+}
+.pt-5{
+    padding-top: 5rem;
+}
+.pr-0{
+    padding-right: 0 !important;
+}
+.pr-1{
+    padding-right: 0.5rem !important;
+}
+.pb-1{
+    padding-bottom: 1rem;
+}
+.pl-1{
+    padding-left: 1rem !important;
+}
+.mt-5{
+    margin-top: 5rem;
+}
+.grey{
+    color: #777;
+    text-justify: newspaper;
+}
+.black{
+    color:#222;
+    font-weight: 100;
+}
+.darkgray{
+    color:	#808080 !important;
+}
+.facebook{
+    color: #3b5998 !important;
+}
+.dodgerblue{
+    color: dodgerblue !important;
+}
+.instagram{
+    color:#bc2a8d !important;
+}
+.green{
+    color:#25D366 !important;
+}
+.wechat{
+    color: #09b83e !important;
+}
+.flex{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+}
+.text-indent{
+    text-indent: 20px;
+    letter-spacing: 2px;
+}
