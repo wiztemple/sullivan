@@ -83,14 +83,29 @@ margin-left: auto;
     }
     .navbar__toggleShow{
         display: flex;
+        align-self:flex-start;
     }
     .nav__items-right{
         margin-left:0;
     }
     .navbar__nav-toggle{
+        color: dodgerblue;
+        padding: 8px;
         align-self: flex-end;
         display: initial;
         position: absolute;
         cursor: pointer;
+    }
+    .nav__link {
+        margin-bottom: 15px;
+        padding: 0.rem 1rem;
+        position: relative;
+        display: flex;
+        justify-content:start;
+        align-content: center;
+        align-self: center;
+        align-items: center;
+        color: dodgerblue;
+        text-decoration: none;
     }
 }
