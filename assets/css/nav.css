@@ -89,23 +89,23 @@ margin-left: auto;
         margin-left:0;
     }
     .navbar__nav-toggle{
-        color: dodgerblue;
-        padding: 8px;
+        color: dodgerblue !important;
+        padding: 8px !important;
         align-self: flex-end;
         display: initial;
         position: absolute;
         cursor: pointer;
     }
     .nav__link {
-        margin-bottom: 15px;
-        padding: 0.rem 1rem;
-        position: relative;
-        display: flex;
-        justify-content:start;
-        align-content: center;
-        align-self: center;
-        align-items: center;
-        color: dodgerblue;
-        text-decoration: none;
+        margin-bottom: 15px !important;
+        padding: 0rem 1rem !important;
+        position: relative !important;
+        display: flex !important;
+        justify-content:start !important;
+        align-content: center !important;
+        align-self: center !important;
+        align-items: center !important;
+        color: dodgerblue !important;
+        text-decoration: none !important;
     }
 }
