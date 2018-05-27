@@ -36,7 +36,7 @@ margin-left: auto;
     font-family: 'Lobster Two', cursive;
     box-sizing: border-box;
     font-size: 20px;
-    color: blue;
+    color:#175cf2;
 }
 .nav__link{
     padding: 0.2rem 1rem;
@@ -46,7 +46,7 @@ margin-left: auto;
     align-content: center;
     align-self: center;
     align-items: center;
-    color: dodgerblue;
+    color:#175cf2;
     text-decoration: none;
 
 }
@@ -62,10 +62,10 @@ margin-left: auto;
     content: '';
     bottom: -1rem;
     width:100%;
-    border-bottom: 3px solid dodgerblue; 
+    border-bottom: 3px solid #175cf2; 
 }
 .nav__link:hover::after{
-    border-bottom-color:dodgerblue;
+    border-bottom-color:#175cf2;
     transition: border-bottom-color ease-in-out 0.3s;
 }
 .fixed-top {
@@ -101,7 +101,7 @@ margin-left: auto;
         margin-left:0;
     }
     .navbar__nav-toggle{
-        color: dodgerblue !important;
+        color:#175cf2 !important;
         padding: 8px !important;
         align-self: flex-end;
         display: initial;
@@ -117,7 +117,7 @@ margin-left: auto;
         align-content: center !important;
         align-self: center !important;
         align-items: center !important;
-        color: dodgerblue !important;
+        color: #175cf2 !important;
         text-decoration: none !important;
     }
 }

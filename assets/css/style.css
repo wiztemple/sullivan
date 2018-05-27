@@ -8,7 +8,7 @@ body {
   font-family: 'Sunflower', sans-serif;
 }
 body::-webkit-scrollbar {
-  width: 0.7em;
+  width: 0.6em;
 }
 
 body::-webkit-scrollbar-track {
@@ -16,7 +16,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-background-color:dodgerblue;
+background-color:#175cf2;
 outline: 1px solid blue;
 }
 h1,
@@ -129,11 +129,11 @@ a{
   width: 100%;
 }
 .btn__transparent{
-  color:dodgerblue;
+  color:#175cf2;
   background: transparent;
 }
 .account__btn{
-  background:dodgerblue;
+  background:#175cf2;
   color:#fff;
   /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
@@ -142,7 +142,7 @@ a{
   color:#fff;
 }
 .account__btn:hover, .account__btn:focus{
-  background-color:skyblue;
+  background-color:#0f23e3;
   color:#fff;
 }
 .account__btn > a:hover, .account__btn > a:focus {
