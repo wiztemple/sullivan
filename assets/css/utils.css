@@ -51,9 +51,13 @@
 .p-5{
     padding: 5rem;
 }
+.pt-3{
+    padding-top: 3rem;
+}
 .pt-5{
     padding-top: 5rem;
 }
+
 .pr-0{
     padding-right: 0 !important;
 }
@@ -62,6 +66,12 @@
 }
 .pb-1{
     padding-bottom: 1rem;
+}
+.pb-5{
+    padding-bottom: 5rem;
+}
+.pb-6{
+    padding-bottom: 6rem;
 }
 .pl-1{
     padding-left: 1rem !important;
@@ -78,7 +88,7 @@
     font-weight: 100;
 }
 .darkgray{
-    color:	#808080 !important;
+    color:	#3c3c3c !important;
 }
 .facebook{
     color: #3b5998 !important;
@@ -110,4 +120,14 @@
 .text-indent{
     text-indent: 20px;
     letter-spacing: 2px;
+}
+.text-format{
+    color:#3c3c3c;
+    line-height:1.8;
+    font-weight: 100;
+}
+.h-format{
+    color:#3c3c3c;
+    line-height:2;
+    font-weight: 100;  
 }
