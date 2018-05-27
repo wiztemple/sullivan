@@ -56,6 +56,13 @@ margin-left: auto;
     width:100%;
     border-bottom: 3px solid transparent;
 }
+.active::after{
+    position: absolute;
+    content: '';
+    bottom: -1rem;
+    width:100%;
+    border-bottom: 3px solid dodgerblue; 
+}
 .nav__link:hover::after{
     border-bottom-color:dodgerblue;
     transition: border-bottom-color ease-in-out 0.3s;
