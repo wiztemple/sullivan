@@ -33,6 +33,9 @@
 .py-5{
     padding: 5rem 0rem;
 }
+.py-6{
+    padding: 6rem 0rem;
+}
 .p-1{
     padding: 1rem;
 }
@@ -93,7 +96,7 @@
     color: #09b83e !important;
 }
 .flex{
-    height: 100%;
+    height: 100% !important;
     display: flex;
     justify-content: center;
     align-content: center;

@@ -8,6 +8,12 @@
     flex-wrap: wrap;
     width:100%;
   }
+  .py-5{
+    padding: 2rem 0 !important;
+  }
+  .py-6{
+    padding: 3rem 0 !important;
+  }
   .justify-content-space-between{
     flex-direction: column !important;
 
