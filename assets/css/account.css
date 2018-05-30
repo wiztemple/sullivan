@@ -4,23 +4,18 @@ body {
     *, ::after, ::before {
       box-sizing: border-box;
     }
-    .account{
-      background:#f2f2f2;
-      width: 100vw;
-      height:100vh;
-      display: flex;
-      justify-content: center;
-     align-items: center;
-      background: url('../images/eat.jpg');
+    .signup{
+      background:#fff;
+      /* background: url('../images/art.png'); */
       background-size: cover;
       background-position: center; 
     }
     .form{
-      width:100%;
+      width:100vw;
       height: 100vh;
       display: flex;
       justify-content: center;
-      align-content: center;
+      flex-direction: column;
       align-items: center;
       align-self: center;
     }
@@ -44,8 +39,7 @@ body {
       background: #fff;
       color: #222;
       padding: .375rem .75rem;;
-      border-top:4px solid dodgerblue;
-      border-top-left-radius: 5px;
+      /* border-top:4px solid dodgerblue; */
       border-top-right-radius: 5px;
       box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
     }
